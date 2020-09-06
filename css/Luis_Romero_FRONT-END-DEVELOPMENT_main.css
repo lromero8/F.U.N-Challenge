@@ -1,0 +1,335 @@
+body nav{font-family: 'Open Sans', sans-serif !important; font-weight: normal !important;}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+.section1{
+    margin-top: 10%;
+}
+
+.section1 span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #1E2B38;
+}
+
+.section1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #8B90A1;
+}
+
+.section1 img{
+    display: none;
+}
+
+.section1 .btnMobil{
+    display: block;
+    border-radius: 25px;
+    background-color: #2D25C8;
+}
+
+.section1 .btnDesktop{
+    display: none;
+}
+
+/* SECTION 2 */
+
+.section2{
+    background-color: #F3F6F9;
+    margin-top: 10%;
+    padding: 10%;
+    text-align: center;
+    overflow-x:hidden;
+}
+.section2 img{
+    width: 110px;
+    height: 245px; 
+    display: none;
+}
+
+.section2 .hello{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #1E2B38;
+    padding-top: 20px;
+}
+
+.section2 .name{
+    margin-top: 10px;
+    color: #2D25C8;
+}
+
+.section2 .greyText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #8B90A1;
+}
+
+.section2 .italicSans{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color: #1E2B38;
+}
+
+/* SECTION 3 */
+
+.section3{
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.section3 .p1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #1E2B38;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section3 .p2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #2D25C8;
+    text-align: center;
+}
+
+.section3 .benefitLabel{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #1E2B38;
+    margin-top: 5px;
+}
+
+.section3 .benefitDescription{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #8B90A1;
+    width: 65%; 
+    text-align: justify;
+}
+
+/* SECTION 4 */
+
+.section4{
+    background-color: #2D25C8;
+    margin-top: 50px;
+    overflow-x:hidden;
+}
+
+.section4 .title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.section4 .square1{
+    background-color: white; 
+    width: 65%; 
+
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+
+    padding-bottom: 20px;
+}
+
+.section4 .quote{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #717794; 
+    font-style: italic;
+    padding-top: 50px; 
+}
+
+.section4 img{
+    width: 40%; 
+    height: 100%;
+}
+
+.section4 .author{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #1E2B38;
+}
+
+.section4 .position{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #878C9C;
+}
+
+/* SECTION 5 */
+
+.section5{
+    margin-top: 50px;
+    overflow-x:hidden;
+}
+
+.section5 .title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #1E2B38;
+    text-align: center;
+}
+
+.section5 .row{
+    margin-left: 10%;
+}
+
+.section5 img{
+    max-width: 50%;
+    height: auto;
+    margin-top: 40%;
+}
+
+.section5 .footer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #8B90A1;
+    text-align: center;
+    margin-top: 10%;
+}
+
+/* SECTION 6 */
+.section6{
+    background-color: #2D25C8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    overflow-x:hidden;
+}
+
+.section6 button{
+    background-color: white;
+    font-weight: bold;
+    color: #2D25C8;
+    margin-top: 10%;
+
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+/* SECTION 7 */
+.section7{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #8B90A1;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    overflow-x:hidden;
+}
+
+.section7 img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* NAV BAR */
+    .navbar-nav{
+        margin-left: auto; /*Aligning items to the right*/
+    }
+
+    /* SECTION 1 */
+    .section1 img{
+        width: 300px;
+        height: 200px;
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section1 .btnMobil{
+        display: none;
+    }
+
+    .section1 .btnDesktop{
+        display: block;
+        border-radius: 25px;
+        background-color: #2D25C8;
+        font-size: 12px;
+        padding: 10px 50px;
+    }
+
+    /* SECTION 2 */
+    .section2{
+        padding-bottom: 10%;
+        padding-top: 10%;
+        text-align: left;
+    }
+
+    .section2 img{
+        display: block;
+    }
+
+    /* SECTION 5 */
+    .section5 .row{
+        margin-left: 15%;
+    }
+
+    .section5 .footer{
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+
+    /* SECTION 6 */
+    .section6{
+        font-size: 20px;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 10%;
+        position: absolute;
+        max-width: 800px;
+        top: 3000px;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section6 button{
+        margin-top: 0;
+        padding: 5px 100px;
+    }
+
+    /* SECTION 7 */
+    .section7{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    /* SECTION 6 */
+    .section6{
+        top: 3500px;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .section6 button{
+        padding: 0px 80px;
+    }
+}
